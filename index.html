@@ -1,172 +1,952 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    
-    <link rel="shortcut icon" href="img/rup.jpg">
-    <title>Rupam Wadia</title>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="shortcut icon" href="img/download.png">
+    <title>Instramotor Search | Instamotor</title>
 
-    <!-- Bootstrap Core CSS -->
+    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+      
+      body{
+      background-color: #f2f2f2;
+      font-family: 'Arimo', sans-serif;
+      }
 
-</head>
+      .divblock{
+       padding:24px;"
+       opacity: 0.5;
+      }
 
-<body>
+      #link{
+      padding-right:50px;
+      }
+     
+      div.ex1:hover{
+        background-color: white;
+        background-size: 300px 250px;
+        box-shadow: 3px 3px 3px #888888;
+        border-radius: 2px 2px 2px 2px;
+      }
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="">Rupam Wadia</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="https://branded.me/rupam-wadia">About</a>
-                    </li>
-                    <li>
-                        <a href="http://protogonistofknowledge.blogspot.in/">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+      div.ex1 {
+        padding:20px;
+      }  
+
+      nav a:hover {
+        color: #35d097 !important;
+      }
+
+      .navbar .navbar-default .navbar-fixed-top {
+        background-color: white;
+      }
+
+      #brandname{
+        padding-right:10px;
+        padding-left:40px;
+        font-size:20px;
+      }
+
+      .under
+        {
+          position: relative;
+          width: 260px;
+          height: 250px;
+          border: none;
+          border-radius: 5px 5px 30px 5px;
+                  }
+        .over
+        {
+          position: absolute;
+          top: 215px;
+          left: 225px;
+          width: 55px;
+          height: 55px;
+          border: 2px solid white;
+          border-radius: 100%;
+        }
+        .overtwo{
+          position: absolute;
+          top: 19px;
+          left: 20px;
+          background-color:rgba(47,185,184,.5);
+          padding-left:15px;
+          padding-right:15px;
+          padding-top: 3px;
+          padding-bottom:3px;
+          font-size:13px;
+          opacity: 0.6;
+          border-radius: 2px 2px 2px 2px;
+          color:white;
+        }
+
+        .overthree{
+          position: absolute;
+          top: 35px;
+          left: 240px;
+          background-color:rgba(0,0,0,.5);
+          border-radius: 5px 5px 5px 5px;
+          font-size:20px;
+          padding:3px;
+          color:white;
+        }
+
+        .overthree:hover{
+          color: #ff8080;
+          background-color: white;
+          border:none;
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) { 
+      .under
+        {
+          position: relative;
+          width: 370px;
+          height: 200px;
+          border: none;
+          border-radius: 5px 5px 30px 5px;
+                  }
+        .over
+        {
+          position: absolute;
+          top: 165px;
+          left: 334px;
+          width: 55px;
+          height: 55px;
+          border: 2px solid white;
+          border-radius: 100%;
+        }
+      
+        .overthree{
+          position: absolute;
+          top: 35px;
+          left: 330px;
+          background-color:rgba(0,0,0,.5);
+          border-radius: 5px 5px 5px 5px;
+          font-size:20px;
+          padding:3px;
+          color:white;
+        }
+         }
+
+        @media (min-width: 992px) and (max-width: 1199px) { 
+          
+        .over
+        {
+          position: absolute;
+          top: 215px;
+          left: 180px;
+          width: 55px;
+          height: 55px;
+          border: 2px solid white;
+          border-radius: 100%;
+        }
+      
+        .overthree{
+          position: absolute;
+          top: 35px;
+          left: 190px;
+          background-color:rgba(0,0,0,.5);
+          border-radius: 5px 5px 5px 5px;
+          font-size:20px;
+          padding:3px;
+          color:white;
+        }
+
+         }
+
+         @media (min-width:400px) and (max-width: 767px) { 
+      
+      .under
+        {
+          position: relative;
+          width: 470px;
+          height: 200px;
+          border: none;
+          border-radius: 5px 5px 30px 5px;
+                  }
+        .over
+        {
+          position: absolute;
+          top: 165px;
+          left: 438px;
+          width: 55px;
+          height: 55px;
+          border: 2px solid white;
+          border-radius: 100%;
+        }
+      
+        .overthree{
+          position: absolute;
+          top: 35px;
+          left: 438px;
+          background-color:rgba(0,0,0,.5);
+          border-radius: 5px 5px 5px 5px;
+          font-size:20px;
+          padding:3px;
+          color:white;
+        }
+         }
+
+         @media (min-width: 400px) and (max-width: 500px){
+          .over
+        {
+          position: absolute;
+          top: 165px;
+          left: 350px;
+          width: 55px;
+          height: 55px;
+          border: 2px solid white;
+          border-radius: 100%;
+        }
+      
+        .overthree{
+          position: absolute;
+          top: 35px;
+          left: 350px;
+          background-color:rgba(0,0,0,.5);
+          border-radius: 5px 5px 5px 5px;
+          font-size:20px;
+          padding:3px;
+          color:white;
+        }
+     }
+         @media (min-width: 992px){
+           .foot{
+            border-right:1px solid #ddd;
+           }
+         }
+
+    </style>
+  </head>
+  <body>
+<!-- Navbar Start -->
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color:white;border-bottom:1px solid #ddd;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="" id="brandname"> <b style="border-right:1px solid black;"> instamotor 
+          &nbsp; &nbsp; </b> </a> 
+
+          <a class="navbar-brand visible-xs" href="" onmouseover='myfunctiontwo()' onmouseout='mymouseouttwo()' style="padding-right:20px;padding-left:40px;font-size:14px;">  Buy  </a> 
+
+          <a class="navbar-brand visible-xs" href="" onmouseover='myfunction()' onmouseout='mymouseout()' style="padding-right:20px;padding-left:10px;font-size:14px;">  Sell  </a> 
+          
+          <a class="navbar-brand visible-xs" href="" onmouseover="myfunctionthree()" 
+            onmouseout="mymouseoutthree()" style="padding-right:20px;padding-left:10px;font-size:14px;">  More <span class="caret"></span> </a> 
         </div>
-        <!-- /.container -->
+
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="" type="button" id="navlinktwo" onmouseover='myfunctiontwo()' onmouseout='mymouseouttwo()'> Car Shopping</a></li>
+
+          <li><a href=""  type="button"  id="navlink" onmouseover='myfunction()' onmouseout='mymouseout()'>Sell Your Car</a></li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" type="button" data-toggle="dropdown" id="navlinkthree" href="" onmouseover="myfunctionthree()" onmouseout="mymouseoutthree()">Learn More
+            <span class="caret"></span></a>
+
+            <ul class="dropdown-menu" id="demothree" style="display:none;">
+              <li><a href="">About</a></li>
+              <li><a href="">Trust &amp; Safety</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Press</a></li>
+              <li><a href="">VW Recall Calculator</a></li>
+              <li><a href="">Terms of Service</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="" id="link"> Sign Up/ Login</a>
+          </li>
+        </ul>
+      </div>
+
+      
+      <div class="row" id="demo" style="display:none;padding-top:50px;padding-left:20px;border-top:1px solid #ddd;">
+        <div class="row visible-xs">
+            <div class="col-xs-12">            
+            <center> <span> Sell your car with instamotor </span> <a href="#" class="btn btn-lg btn-primary" style="background-color:#35d097;border:none;border-radius:2px;display:inline-block;padding:10px;font-size:15px;">Sell Car</a> <br><br></center>
+              <hr>
+             <a href="" style="color:#35d097;"> Learn More </a> <br><br><br>
+            </div>
+        </div>
+        <div class="col-md-12">
+          <div class="col-md-4" id="divblock">
+            <b> PREPARE FOR THE SALE </b><br><br>
+              <a href="" style="color:black;">How to price your car for sale</a><br><br>
+              <a href="" style="color:black;">The ultimate guide to sell your car</a><br><br>
+              <a href="" style="color:black;">Prepping your car for sale</a><br><br>
+              <a href="" style="color:black;">Understand your selling options</a><br><br>
+              <a herf="" style="color:black;">How to take the best photos for your car ad</a><br><br>
+              <a herf="" style="color:black;">What paperwork do you need to sell your car</a><br><br>
+          </div>
+          <div class="col-md-4">
+            <b> SELLER TIPS </b><br><br>
+              <a href="" style="color:black;">How to sell your car when you still have payments left</a><br><br>
+              <a href="" style="color:black;">6 Things to help you sell your car quickly</a><br><br>
+              <a href="" style="color:black;">How much do you lose from a dealer trade-in</a><br><br>
+              <a href="" style="color:black;">Understand your selling options</a><br><br>
+              <a herf="" style="color:black;">How to get out of a car lease</a><br><br>
+              <a herf="" style="color:black;">Conducting a safe transaction</a><br><br>
+          </div>
+            
+          <div class="col-md-4">
+
+          </div>
+        </div>
+        <hr>
+        <div class="row hidden-xs">
+            <div class="col-md-12">            
+            <center> <span> Sell your car with instamotor </span> <a href="#" class="btn btn-lg btn-primary" style="background-color:#35d097;border:none;border-radius:2px;display:inline-block;padding:10px;font-size:15px;">Sell Car</a> <br><br></center>
+
+            </div>
+        </div>
+      </div>
+
+
+      <div class="row" id="demotwo" style="display:none;padding-top:50px;padding-left:20px;border-top:1px solid #ddd">
+      <div class="row visible-xs">
+        <div class="col-md-12">            
+            <center> <span> Find the right car for you </span> <a href="#" class="btn btn-lg btn-primary" style="background-color:#35d097;border:none;border-radius:2px;display:inline-block;padding:10px;font-size:15px;">Start Searching</a> <br><br></center>
+            <hr>
+             <a href="" style="color:#35d097;"> Learn More </a> <br><br><br>
+          </div>
+      </div>
+        <div class="col-md-12">
+          <div class="col-md-4" id="divblock">
+            <b> CAR SHOPPING </b><br><br>
+              <a href="" style="color:black;">The ultimate used car buying guide</a><br><br>
+              <a href="" style="color:black;">How to buy your first car</a><br><br>
+              <a href="" style="color:black;">How much car can I afford?</a><br><br>
+              <a href="" style="color:black;">Understanding the cost of ownership</a><br><br>
+          </div>
+          <div class="col-md-4">
+            <b> LEARN </b><br><br>
+              <a href="" style="color:black;">Older car with low miles, or newer car with high miles?</a><br><br>
+              <a href="" style="color:black;">How to find the right car</a><br><br>
+              <a href="" style="color:black;">How to find the right car</a><br><br>
+              <a href="" style="color:black;">Should I buy a used rental car </a><br><br>
+              <a herf="" style="color:black;">What to know before buying a used EV or Hybrid</a><br><br>
+              <a herf="" style="color:black;">Car buying myths busted</a><br><br>              
+          </div>
+          <div class="col-md-4">
+            <b> TOOLS </b><br><br>
+              <a href="" style="color:black;">Car Affordability Calculator</a><br><br>
+              <a href="" style="color:black;">Auto Loan Calculator</a><br><br>
+              <a href="" style="color:black;">Car Lease Payment Calculator</a><br><br>
+              <a href="" style="color:black;">Lease End Calculator</a><br><br>
+              <a herf="" style="color:black;">VW Settlement &amp; Buyback Calculator</a><br><br>
+          </div>
+        </div>
+        <hr>
+          <div class="col-md-12 hidden-xs">            
+            <center> <span> Find the right car for you </span> <a href="#" class="btn btn-lg btn-primary" style="background-color:#35d097;border:none;border-radius:2px;display:inline-block;padding:10px;font-size:15px;">Start Searching</a> <br><br></center>
+          </div>
+      </div>
+      </div>
     </nav>
+<!-- Navbar End-->
+<br><br><br>
+<div class="container-fluid" style="margin:10px;">
+  <div class="row">
+  <!-- Side block Start-->
+    <div class="col-md-3 col-xs-12 hidden-xs hidden-sm" style="background-color:white;">
 
+      <div class="row">
+        <div class="col-xs-8"><br>
+              <span class="glyphicon glyphicon-filter">  <b style="font-size:30px;font-family:Sans-serif;">  Filters </b> </span>
+        </div>
+        <div class="col-xs-4">
+              <span> <a href="" style="float:right;padding-top:10px;font-size:20px;font-family:Sans-serif;"> <b> Clear </b> </a></span>
+        </div>
+      </div>
+      <hr>
+      <span style="font-size:15px;font-family:Sans-serif;"> <b> Make an Model </b> </span>
+      <div class="col-xs-12">
+        <select class="form-control"  style="padding-left:6px;">
+          <option value="placeholder"> Make</option>
+        </select>
+      </div>
+            <br><br><br>            
 
-    <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header">
-        <div class="container">
+      <div class="col-xs-12">
+        <select class="form-control"  style="padding-left:6px;">
+          <option value="placeholder"> Model </option>
+          <option></option>
+        </select>
+      </div>
+      <br><br>
+    
+      <hr>
+      <span style="font-size:15px;font-family:Sans-serif;"> <b> Price</b> </span>
+        <div class="row">
+          <div class="col-xs-6">
+            <select class="min form-control">
+              <option value="placeholder"> Max. </option>
+              <option></option>
+            </select>
+          </div>
+          <div class="col-xs-6">
+            <select class="min form-control">
+              <option value="placeholder"> Min. </option>
+              <option></option>
+            </select>
+          </div>
+        </div>
+            
+        <hr>
+        <span style="font-size:15px;font-family:Sans-serif;"> <b> Mileage </b> </span>
+          <div class="row">
+            <div class="col-xs-6">
+              <select class="min form-control">
+                <option value="placeholder"> Max. </option>
+                <option></option>
+              </select>
+            </div>
+            <div class="col-xs-6">
+              <select class="min form-control">
+                <option value="placeholder"> Min. </option>
+                <option></option>
+              </select>
+            </div>
+          </div>
 
+        <hr>
+        <span style="font-size:15px;font-family:Sans-serif;"> <b> Year </b> </span>
+          <div class="row">
+            <div class="col-xs-6">
+              <select class="min form-control">
+                <option value="placeholder"> Max. </option>
+                <option></option>
+              </select>
+            </div>
+            <div class="col-xs-6">
+              <select class="min form-control">
+                <option value="placeholder"> Min. </option>
+                <option></option>
+              </select>
+            </div>
+          </div>
+
+          <hr>
+          <span style="font-size:15px;font-family:Sans-serif;"> <b> Features </b> </span>
+          <div class="row">
+            <div class="col-xs-12">
+              <select class="min form-control">
+                <option value="placeholder"> Add Feature </option>
+                <option></option>
+              </select>
+            </div>
+          </div>
+            
+            <hr>
+            <span style="font-size:15px;font-family:Sans-serif;"> <b> Category </b> </span>
+              <div class="row">
+                <div class="col-xs-6">
+                  <select class="min form-control">
+                    <option value="placeholder"> Add Category </option>
+                    <option></option>
+                  </select>
+                </div>
+              </div>
+            <hr>
+
+            <a href="#" class="btn btn-primary btn-block" style="background-color:#35d097;border:none;border-radius:2px;display:inline-block;font-size:13px;">Save Your Search</a>    
+            <br>
+            <br>
+        </div>
+
+   <!-- Side block end-->
+        <div class="wrapeer visible-xs visible-sm"><br>
+          <button href="" type="button" onclick="showfilter()" class="btn btn-primary btn-block" style="background-color:#35d097;border:none;"><center>Show Filters</center></button>    
+        </div>
+
+    <!-- For small screen-->
+        <div class="row"  id="showfilter" style="background-color:white;display:none;margin:5px;">
+          <div class="col-xs-12">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Rupam Wadia</h1>
-                        <h3>Welcome</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/RupamWadia" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/rupamwadia" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/pub/rupam-wadia/91/39/a23" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul>
-                    </div>
+              <div class="col-xs-8"><br>
+                <span class="glyphicon glyphicon-filter">  <b style="font-size:30px;font-family:Sans-serif;">  Filters </b> </span>
+               </div>
+              <div class="col-xs-4">
+                <span> <a href="" style="float:right;padding-top:10px;font-size:20px;font-family:Sans-serif;"> <b> Clear </b> </a></span>
+              </div>
+            </div>
+
+            <hr>
+            <span style="font-size:15px;font-family:Sans-serif;"> <b> Make an Model </b> </span>
+            <div class="col-xs-12">
+              <select class="form-control"  style="padding-left:6px;">
+                <option value="placeholder"> Make</option>
+            </select>
+            </div>
+            <br><br><br>            
+
+            <div class="col-xs-12">
+              <select class="form-control"  style="padding-left:6px;">
+                <option value="placeholder"> Model </option>
+                <option></option>
+              </select>
+            </div>
+            <br><br>
+    
+            <hr>
+            <span style="font-size:15px;font-family:Sans-serif;"> <b> Price</b> </span>
+            <div class="row">
+              <div class="col-xs-6">
+                <select class="min form-control">
+                  <option value="placeholder"> Max. </option>
+                  <option></option>
+                </select>
+              </div>
+              <div class="col-xs-6">
+                <select class="min form-control">
+                  <option value="placeholder"> Min. </option>
+                  <option></option>
+                </select>
+              </div>
+            </div>
+            
+            <hr>
+            <span style="font-size:15px;font-family:Sans-serif;"> <b> Mileage </b> </span>
+            <div class="row">
+              <div class="col-xs-6">
+                <select class="min form-control">
+                  <option value="placeholder"> Max. </option>
+                  <option></option>
+                </select>
+              </div>
+              <div class="col-xs-6">
+                <select class="min form-control">
+                  <option value="placeholder"> Min. </option>
+                  <option></option>
+                </select>
+              </div>
+            </div>
+
+            <hr>
+            <span style="font-size:15px;font-family:Sans-serif;"> <b> Year </b> </span>
+            <div class="row">
+              <div class="col-xs-6">
+                <select class="min form-control">
+                <option value="placeholder"> Max. </option>
+                <option></option>
+                </select>
+              </div>
+              <div class="col-xs-6">
+                <select class="min form-control">
+                <option value="placeholder"> Min. </option>
+                <option></option>
+                </select>
+              </div>
+            </div>
+
+            <hr>
+            <span style="font-size:15px;font-family:Sans-serif;"> <b> Features </b> </span>
+            <div class="row">
+              <div class="col-xs-12">
+                <select class="min form-control">
+                <option value="placeholder"> Add Feature </option>
+                <option></option>
+                </select>
+              </div>
+            </div>
+            
+            <hr>
+            <span style="font-size:15px;font-family:Sans-serif;"> <b> Category </b> </span>
+            <div class="row">
+              <div class="col-xs-6">
+                <select class="min form-control">
+                <option value="placeholder"> Add Category </option>
+                <option></option>
+                </select>
+              </div>
+            </div>
+            <hr>
+            <br>
+            </div>
+            </div>
+
+    <div class="col-md-9 col-xs-12"  id="datavisible">
+    <br><br>
+    <div class="row">
+    <div class="col-md-2 col-sm-2 col-xs-6">
+    <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span><label class="control-label" style="color:#9c2e2e;"> Location </label>
+    <input type="text" maxlength="5" placeholder="Enter ZIP Code" class="form-control" onfocus="color(this)"> 
+    </div>
+    <div class="col-md-2 col-sm-2 col-xs-6">
+    <label class="control-label" style="color:black;"> Distance </label>
+    <select class="min form-control">
+                <option value="placeholder"> 100 miles. </option>
+                <option></option>
+                </select>
+    </div>
+    <div class="visible-xs">
+    <br>
+    <br>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-4">
+    <label class="control-label" style="color:black;"> Sorting By </label>
+    <select class="min form-control">
+    <option value="placeholder"> best Match </option>
+    <option></option>
+    </select>
+    </div>
+    <div class="col-md-3 col-sm-3 col-xs-4">
+    <label class="control-label" style="color:black;"> Showing </label><br>
+   <span style="padding-top:15px;font-size:15px;font-family:'Arial', Serif;"> 1-24 of 263 listings </span>
+    </div>
+    <div class="col-md-2 col-sm-2 col-xs-4">
+    
+
+  <div aria-label="Page navigation" style="float:right;">
+  <ul class="pagination pagination-lg">
+    <li><a href="" class="glyphicon glyphicon-th-list" style="opacity:0.5;background-color:#ddd;border:1px solid #ddd;font-size:22px;padding:3px;border-radius:0px;color:black;"></a></li>
+    <li class="active"><a href="" class="glyphicon glyphicon-th" style="background-color:transparent;color:black;border:1px solid #ddd;font-size:22px;padding:3px;border-radius:0px;color:black"> </a></li>
+  </ul>
+</div>
+
+     </div>
+       
+    </div>
+    <hr>
+    <br>
+    <div class="row">
+
+      <div class="col-md-4 col-lg-4 col-xs-12 col-sm-6 ex1">
+          <img src="img/one.jpg"  class="img-responsive under"  alt="one"> 
+          <img src="img/ones.jpg" class="img-responsive over"  width="100" height="84">
+          <span class="overtwo"> <b> VERIFIED </b> </span>
+          <span> <a href="" class="glyphicon glyphicon-heart-empty overthree"> </a> </span>
+
+
+
+          <br>
+
+              <div class="caption" >
+                   <div class="img-responsive row">
+                   <span style="float:left;font-size:18px;padding-left:12px;"> <b> Ford Fusion</b> SEL </span>
+                   <span style="float:right;font-size:18px;"> $6,799 </span><br>
+                   </div>
+                   <div class="img-responsive row">
+                   <span style="padding-left:12px;"><div class="text-strong text-gray-dark" style="border-width:2px;border-style:solid;border-radius:2px;display:inline-block;padding-top:0;padding-left:4px;padding-right:4px;font-size:12px;">2010</div></span>
+                   <span style="font-size:12px;"> 76.000 miles . Walnut Creek</span>
+                   </div>
                 </div>
             </div>
 
-        </div>
-        <!-- /.container -->
+
+       <div class="col-md-4 col-lg-4 col-xs-12 col-sm-6 ex1">
+          <img src="img/two.jpg"  class="img-responsive under"  alt="one"> 
+          <img src="img/twos.jpg" class="img-responsive over"  width="100" height="84">
+          <span class="overtwo"> <b> VERIFIED </b> </span>
+          <span> <a href="" class="glyphicon glyphicon-heart-empty overthree"> </a> </span><br>
+
+          <div class="caption" >
+             <div class="img-responsive row">
+             <span style="float:left;font-size:18px;padding-left:12px;"> <b> Toyota Sequoia</b> SR5 </span>
+             <span style="float:right;font-size:18px;"> $14,300 </span><br>
+             </div>
+             <div class="img-responsive row">
+             <span style="padding-left:12px;"><div class="text-strong text-gray-dark" style="border-width:2px;border-style:solid;border-radius:2px;display:inline-block;padding-top:0;padding-left:4px;padding-right:4px;font-size:12px;">2008</div></span>
+             <span style="font-size:12px;"> 79.191 miles . Oakland</span>
+             </div>
+          </div>
+      </div>
+       
+       <div class="col-md-4 col-lg-4 col-xs-12 col-sm-6 ex1">
+          <img src="img/three.jpg"  class="img-responsive under"  alt="one"> 
+          <img src="img/threes.jpg" class="img-responsive over"  width="100" height="84">
+          <span class="overtwo"> <b> VERIFIED </b> </span>
+          <span> <a href="" class="glyphicon glyphicon-heart-empty overthree"> </a> </span><br>
+
+
+        <div class="caption" >
+             <div class="img-responsive row">
+             <span style="float:left;font-size:18px;padding-left:12px;"> <b> Jeep Grand Cheroke...</b> </span>
+             <span style="float:right;font-size:18px;"> $3,600 </span><br>
+             </div>
+             <div class="img-responsive row">
+             <span style="padding-left:12px;"><div class="text-strong text-gray-dark" style="border-width:2px;border-style:solid;border-radius:2px;display:inline-block;padding-top:0;padding-left:4px;padding-right:4px;font-size:12px;">2000</div></span>
+             <span style="font-size:12px;"> 179.804 miles . Galt</span>
+             </div>
+          </div>
+
+      </div>
+
+
+      <div class="col-md-4 col-xs-12 col-sm-6 ex1">
+          <img src="img/four.jpg"  class="img-responsive under"  alt="one"> 
+          <img src="img/fours.jpg" class="img-responsive over"  width="100" height="84">
+          <span class="overtwo"> <b> VERIFIED </b> </span>
+          <span> <a href="" class="glyphicon glyphicon-heart-empty overthree"> </a> </span><br>
+
+
+    <div class="caption" >
+             <div class="img-responsive row">
+             <span style="float:left;font-size:18px;padding-left:12px;"> <b> Jeep Grand Cheroke...</b> </span>
+             <span style="float:right;font-size:18px;"> $3,600 </span><br>
+             </div>
+             <div class="img-responsive row">
+             <span style="padding-left:12px;"><div class="text-strong text-gray-dark" style="border-width:2px;border-style:solid;border-radius:2px;display:inline-block;padding-top:0;padding-left:4px;padding-right:4px;font-size:12px;">2000</div></span>
+             <span style="font-size:12px;"> 179.804 miles . Galt</span>
+             </div>
+          </div>
+
+      </div>
+
+
+       <div class="col-md-4 col-xs-12 col-sm-6 ex1">
+          <img src="img/five.jpg"  class="img-responsive under"  alt="one"> 
+          <img src="img/fives.jpg" class="img-responsive over"  width="100" height="84">
+          <span class="overtwo"> <b> VERIFIED </b> </span>
+          <span> <a href="" class="glyphicon glyphicon-heart-empty overthree"> </a> </span><br>
+
+
+        <div class="caption" >
+             <div class="img-responsive row">
+             <span style="float:left;font-size:18px;padding-left:12px;"> <b> Jeep Grand Cheroke...</b> </span>
+             <span style="float:right;font-size:18px;"> $3,600 </span><br>
+             </div>
+             <div class="img-responsive row">
+             <span style="padding-left:12px;"><div class="text-strong text-gray-dark" style="border-width:2px;border-style:solid;border-radius:2px;display:inline-block;padding-top:0;padding-left:4px;padding-right:4px;font-size:12px;">2000</div></span>
+             <span style="font-size:12px;"> 179.804 miles . Galt</span>
+             </div>
+          </div>
+
+      </div>
+       
+       <div class="col-md-4 col-xs-12 col-sm-6 ex1">
+          <img src="img/six.jpg"  class="img-responsive under"  alt="one"> 
+          <img src="img/sixs.jpg" class="img-responsive over"  width="100" height="84" />
+          <span class="overtwo"> <b> VERIFIED </b> </span>
+          <span> <a href="" class="glyphicon glyphicon-heart-empty overthree"> </a> </span><br>
+
+
+        <div class="caption" >
+             <div class="img-responsive row">
+             <span style="float:left;font-size:18px;padding-left:12px;"> <b> Jeep Grand Cheroke...</b> </span>
+             <span style="float:right;font-size:18px;"> $3,600 </span><br>
+             </div>
+             <div class="img-responsive row">
+             <span style="padding-left:12px;"><div class="text-strong text-gray-dark" style="border-width:2px;border-style:solid;border-radius:2px;display:inline-block;padding-top:0;padding-left:4px;padding-right:4px;font-size:12px;">2000</div></span>
+             <span style="font-size:12px;"> 179.804 miles . Galt</span>
+             </div>
+          </div>
+
+      </div>
+
+      <div class="col-md-4 col-xs-12 col-sm-6 ex1">
+          <img src="img/seven.jpg"  class="img-responsive under"  alt="one"> 
+          <img src="img/sevens.jpg" class="img-responsive over"  width="100" height="84" />
+          <span class="overtwo"> <b> VERIFIED </b> </span>
+          <span> <a href="" class="glyphicon glyphicon-heart-empty overthree"> </a> </span><br>
+<br>
+
+      <div class="caption" >
+             <div class="img-responsive row">
+             <span style="float:left;font-size:18px;padding-left:12px;"> <b> Jeep Grand Cheroke...</b> </span>
+             <span style="float:right;font-size:18px;"> $3,600 </span><br>
+             </div>
+             <div class="img-responsive row">
+             <span style="padding-left:12px;"><div class="text-strong text-gray-dark" style="border-width:2px;border-style:solid;border-radius:2px;display:inline-block;padding-top:0;padding-left:4px;padding-right:4px;font-size:12px;">2000</div></span>
+             <span style="font-size:12px;"> 179.804 miles . Galt</span>
+             </div>
+          </div>
+
+      </div>
+
+
+       <div class="col-md-4 col-xs-12 col-sm-6 ex1">
+          <img src="img/eight.jpg"  class="img-responsive under"  alt="one"> 
+          <img src="img/eights.jpg" class="img-responsive over"  width="100" height="84" />
+          <span class="overtwo"> <b> VERIFIED </b> </span>
+          <span> <a href="" class="glyphicon glyphicon-heart-empty overthree"> </a> </span><br>
+
+
+      <div class="caption" >
+             <div class="img-responsive row">
+             <span style="float:left;font-size:18px;padding-left:12px;"> <b> Jeep Grand Cheroke...</b> </span>
+             <span style="float:right;font-size:18px;"> $3,600 </span><br>
+             </div>
+             <div class="img-responsive row">
+             <span style="padding-left:12px;"><div class="text-strong text-gray-dark" style="border-width:2px;border-style:solid;border-radius:2px;display:inline-block;padding-top:0;padding-left:4px;padding-right:4px;font-size:12px;">2000</div></span>
+             <span style="font-size:12px;"> 179.804 miles . Galt</span>
+             </div>
+          </div>
+      </div>
+
+</div>
+
+<nav aria-label="Page navigation">
+  <ul class="pagination pagination-lg">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true" style="color:#586167;">previous</span>
+      </a>
+    </li>
+    <li class="active"><a href="#"  style="background-color:#35d097;border:none;"><b>1</b></a></li>
+    <li><a href="#"><b>2</b></a></li>
+    <li><a href="#"><b>3</b></a></li>
+    <li><a href="#"><b>4</b></a></li>
+    <li><a href="#"><b>5</b></a></li>
+    <li><a href="#"><b>...</b></a></li>
+    <li><a href="#"><b>11</b></a></li>
+
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true"><b>next</b></span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
 
     </div>
-    <!-- /.intro-header -->
 
-    <!-- Page Content -->
+  </div>
+</div>
 
-<br>
-<br>
-	<a  name="contact"></a>
-    <div class="banner">
 
-        <div class="container">
 
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Me:</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/RupamWadia" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/rupamwadia" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/pub/rupam-wadia/91/39/a23" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
 
+<footer class="container-fluid" style="background-color:#ebeced;">
+<hr>
+<br><br><br><br>
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-5 col-xs-12 col-sm-12 foot">
+      <b style="font-size:20px;"> Find Cars From Your Phone </b>
+      <br><br>
+      <p class="plain">Instamotor's free app helps you find used cars for<br>sale directly by the owner. Buying and selling a used<br>car has never been safer and easier.</p>
+
+      <br><br>
+      
+      <div class="row">
+        <div class="col-md-10">
+          <div class="input-group input-group-lg hidden-sm hidden-xs">
+            <span class="input-group-addon">
+              <img src="img/flag.jpg" width="20px" height="20px" alt="flag-icon">
+            </span>
+            <input type="text" class="form-control" placeholder="Enter Phone Number">
+            <span class="input-group-btn">
+            <button class="btn btn-lg btn-primary" style="background-color:#35d097;border:none;padding:10px;"> Send </button>
+            </span>
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+
+<br><br>
+      </div>
+      
+      <div class="col-md-7">
+        <div class="row">
+        <hr class="col-sm-12" style="color:red;">
+          <div class="col-md-4">
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-6">
+            <h6> <b style="font-size:12px;">  INSTAMOTOR  </b> </h6>
+            <ul class="nav">
+              <li><a href=""><b>About</b></a></li>
+              <li><a href=""><b>Trust &amp; Safety</b></a></li>
+              <li><a href=""><b>Contact Us</b></a></li>
+              <li><a href=""><b>Blog</b></a></li>
+              <li><a href=""><b>Press</b></a></li>
+              <li><a href=""><b>VW Recall Calculator</b></a></li>
+              <li><a href=""><b>Terms of Service</b></a></li>
+              <li><a href=""><b>Privacy Policy</b></a></li>
+
+
+
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-6">
+              <h6> <b style="font-size:12px;">  CARS FOR SALE  </b> </h6>
+                <ul class="nav">
+                  <li><a href=""><b>Below $10,000</b></a></li>
+                  <li><a href=""><b>Below $20,000</b></a></li>
+                  <li><a href=""><b>Below $40,000</b></a></li>
+                  <li><a href=""><b>Above $50,000</b></a></li>
+                </ul>
+          </div>
         </div>
-        <!-- /.container -->
+      </div>
 
     </div>
-    <!-- /.banner -->
+    <br><br>
+  </div>
+</footer>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="https://branded.me/rupam-wadia">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="http://protogonistofknowledge.blogspot.in/">Blog</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Rupam Wadia All Rights Reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+<div class="col-xs-12 col-sm-12 navbar-fixed-bottom hidden-md hidden-lg">
+<a href="" class="btn btn-primary btn-block" style="background-color:#35d097;border:none;border-radius:2px;display:inline-block;font-size:13px;">Save Your Search</a>    
+            
+</div>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<script>
+  function myfunction(){
+    document.getElementById('demo').style.display='block';
+      }
 
-    <!-- Bootstrap Core JavaScript -->
+    function mymouseout(){
+        document.getElementById('demo').style.display='none';
+    }
+
+    function myfunctiontwo(){
+    document.getElementById('demotwo').style.display='block';
+      }
+
+    function mymouseouttwo(){
+        document.getElementById('demotwo').style.display='none';
+    }
+
+    function myfunctionthree(){
+      document.getElementById('demothree').style.display='block';
+      }
+
+    function mymouseoutthree(){
+        document.getElementById('demothree').style.display='none';
+    }
+
+    function color(c)
+  {
+    c.style.border ="3px solid #9c2e2e";
+  }
+
+  function bgdisplay(){
+    document.getElementById('imgblock').style.backgroundColor ='white';
+  }
+
+  function showfilter(){
+      var x = document.getElementById('showfilter');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function bgnone(){
+    document.getElementById('imgblock').style.backgroundColor ='#ddd';
+  }
+
+</script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-
-</body>
-
+  </body>
 </html>
